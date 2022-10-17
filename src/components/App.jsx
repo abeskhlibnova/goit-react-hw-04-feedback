@@ -1,18 +1,10 @@
 import Feedback from './Feedback';
+import { Box } from './Feedback.styled';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <Box>
       <Feedback />
-    </div>
+    </Box>
   );
 };
